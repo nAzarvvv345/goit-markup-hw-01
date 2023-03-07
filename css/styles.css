@@ -23,6 +23,8 @@ body {
   text-decoration: none;
 }
 .btn {
+  color: #ffffff;
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -51,18 +53,36 @@ body {
 }
 .header-navigation {
 }
+.header-title span {
+  color: #2e2f42;
+}
 .header-list {
 }
-
-.header-link {
+.header-title {
   font-family: "Raleway";
   font-weight: 800;
 
   font-size: 18px;
   line-height: 1.33;
 
+  display: flex;
+  align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+
+  /* IRIS */
+
+  color: #4d5ae5;
+}
+
+.header-link {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+
+  letter-spacing: 0.02em;
 
   color: #2e2f42;
 }
@@ -70,12 +90,17 @@ body {
 .header-link:focus {
   color: #404bbf;
 }
-
 .header-item {
 }
 .header-address {
+  font-style: normal;
+}
+.header-tel:hover,
+.header-tel:focus {
+  color: #404bbf;
 }
 .header-tel {
+  font-family: "Roboto";
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -84,6 +109,7 @@ body {
 
   color: #434455;
 }
+
 /* ----------------effective----------------- */
 
 .effective {
@@ -102,6 +128,11 @@ body {
 }
 .effective-btn {
   color: #ffffff;
+  background-color: #4d5ae5;
+}
+.effective-btn:hover,
+.effective-btn:focus {
+  background-color: #404bbf;
 }
 /* ----------------features----------------- */
 
@@ -170,6 +201,7 @@ body {
 }
 .footer-link {
   font-family: "Raleway";
+  font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -180,13 +212,12 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
-  /* CLOUD */
+  /* IRIS */
 
-  color: #f4f4fd;
+  color: #4d5ae5;
 }
-.footer-link:hover,
-.footer-link:focus {
-  color: #404bbf;
+.footer-link span {
+  color: #f4f4fd;
 }
 
 .footer-discription {
@@ -201,21 +232,25 @@ body {
 
   color: #e7e9fc;
 }
-/* ----------------PORTFOLIO!!!!!!----------------- */
+/* ----------------PORTFOLIO!!!!!!------------------------------------------------------------------------------------ */
 /* ----------------buttons----------------- */
-.buttons {
-}
+
 .buttons-list {
 }
 
 .button-item {
 }
 .button-btn {
+  color: #4d5ae5;
+  background-color: #f4f4fd;
+}
+.button-btn:hover,
+.button-btn:focus {
+  background: #404bbf;
   color: #ffffff;
 }
 /* ----------------banking----------------- */
-.banking {
-}
+
 .banking-list {
 }
 
@@ -228,8 +263,7 @@ body {
   color: #434455;
 }
 /* ----------------taxi----------------- */
-.taxi {
-}
+
 .taxi-list {
 }
 .taxi-item {
