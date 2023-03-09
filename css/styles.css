@@ -2,6 +2,13 @@ body {
   font-family: "Roboto", sans-serif;
   color: #2e2f42;
 }
+:root {
+  --btn-color: #ffffff;
+  --head-title-span-color: #2e2f42;
+  --head-title-color: #4d5ae5;
+  --head-focus-color: #404bbf;
+  --tel-color: #434455;
+}
 .item-title {
   font-weight: 500;
   font-size: 20px;
@@ -23,7 +30,7 @@ body {
   text-decoration: none;
 }
 .btn {
-  color: #ffffff;
+  color: var(--btn-color);
 
   font-weight: 500;
   font-size: 16px;
@@ -54,7 +61,7 @@ body {
 .header-navigation {
 }
 .header-title span {
-  color: #2e2f42;
+  color: var(--head-title-span-color);
 }
 .header-list {
 }
@@ -72,7 +79,7 @@ body {
 
   /* IRIS */
 
-  color: #4d5ae5;
+  color: var(--head-title-color);
 }
 
 .header-link {
@@ -84,11 +91,11 @@ body {
 
   letter-spacing: 0.02em;
 
-  color: #2e2f42;
+  color: var(--head-title-span-color);
 }
 .header-link:hover,
 .header-link:focus {
-  color: #404bbf;
+  color: var(--head-focus-color);
 }
 .header-item {
 }
@@ -97,7 +104,7 @@ body {
 }
 .header-tel:hover,
 .header-tel:focus {
-  color: #404bbf;
+  color: var(--head-focus-color);
 }
 .header-tel {
   font-family: "Roboto";
@@ -107,7 +114,7 @@ body {
 
   letter-spacing: 0.02em;
 
-  color: #434455;
+  color: var(--tel-color);
 }
 
 /* ----------------effective----------------- */
