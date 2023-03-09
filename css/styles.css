@@ -8,6 +8,8 @@ body {
   --head-title-color: #4d5ae5;
   --head-focus-color: #404bbf;
   --tel-color: #434455;
+  --footer-span-color: #f4f4fd;
+  --footer-discription-color: #e7e9fc;
 }
 .item-title {
   font-weight: 500;
@@ -131,15 +133,15 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
 
-  color: #ffffff;
+  color: var(--btn-color);
 }
 .effective-btn {
-  color: #ffffff;
-  background-color: #4d5ae5;
+  color: var(--btn-color);
+  background-color: var(--head-title-color);
 }
 .effective-btn:hover,
 .effective-btn:focus {
-  background-color: #404bbf;
+  background-color: var(--head-focus-color);
 }
 /* ----------------features----------------- */
 
@@ -150,10 +152,10 @@ body {
 .features-item {
 }
 .features-item-title {
-  color: #2e2f42;
+  color: var(--head-title-span-color);
 }
 .features-item-subtitle {
-  color: #434455;
+  color: var(--tel-color);
 }
 /* ----------------img----------------- */
 .img {
@@ -167,7 +169,7 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
 
-  color: #2e2f42;
+  color: var(--head-title-span-color);
 }
 .img-list {
 }
@@ -176,6 +178,7 @@ body {
 }
 /* ----------------team----------------- */
 .team {
+  background-color: var(--footer-span-color);
 }
 .team-title {
   font-weight: 700;
@@ -189,7 +192,7 @@ body {
 
   /* NAVY BLUE */
 
-  color: #2e2f42;
+  color: var(--head-title-span-color);
 }
 .team-list {
 }
@@ -197,14 +200,14 @@ body {
 .team-item {
 }
 .team-item-title {
-  color: #2e2f42;
+  color: var(--head-title-span-color);
 }
 .team-item-subtitle {
-  color: #434455;
+  color: var(--tel-color);
 }
 /* ----------------footer----------------- */
 .footer {
-  background-color: #2e2f42;
+  background-color: var(--head-title-span-color);
 }
 .footer-link {
   font-family: "Raleway";
@@ -221,10 +224,10 @@ body {
 
   /* IRIS */
 
-  color: #4d5ae5;
+  color: var(--head-title-color);
 }
 .footer-link span {
-  color: #f4f4fd;
+  color: var(--footer-span-color);
 }
 
 .footer-discription {
@@ -237,7 +240,7 @@ body {
 
   /* CORNFLOWER */
 
-  color: #e7e9fc;
+  color: var(--footer-discription-color);
 }
 /* ----------------PORTFOLIO!!!!!!------------------------------------------------------------------------------------ */
 /* ----------------buttons----------------- */
@@ -248,13 +251,13 @@ body {
 .button-item {
 }
 .button-btn {
-  color: #4d5ae5;
-  background-color: #f4f4fd;
+  color: var(--head-title-color);
+  background-color: var(--footer-span-color);
 }
 .button-btn:hover,
 .button-btn:focus {
-  background: #404bbf;
-  color: #ffffff;
+  background: var(--head-focus-color);
+  color: var(--btn-color);
 }
 /* ----------------banking----------------- */
 
@@ -264,10 +267,10 @@ body {
 .banking-item {
 }
 .banking-item-title {
-  color: #2e2f42;
+  color: var(--head-title-span-color);
 }
 .banking-item-subtitle {
-  color: #434455;
+  color: var(--tel-color);
 }
 /* ----------------taxi----------------- */
 
@@ -276,10 +279,10 @@ body {
 .taxi-item {
 }
 .taxi-item-title {
-  color: #2e2f42;
+  color: var(--head-title-span-color);
 }
 .taxi-item-subtitle {
-  color: #434455;
+  color: var(--tel-color);
 }
 /* ----------------instagram----------------- */
 
@@ -291,9 +294,9 @@ body {
 .instagram-item {
 }
 .instagram-item-title {
-  color: #2e2f42;
+  color: var(--head-title-span-color);
 }
 
 .instagram-item-subtitle {
-  color: #434455;
+  color: var(--tel-color);
 }
