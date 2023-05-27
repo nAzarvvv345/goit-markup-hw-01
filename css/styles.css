@@ -87,6 +87,7 @@ button {
   border-bottom: 1px solid #e7e9fc;
 }
 .header {
+  padding: 24px 0;
 }
 .header-navigation {
   display: flex;
@@ -104,6 +105,7 @@ button {
 }
 
 .header-address-list {
+  padding: 24px 0 24px;
   display: flex;
   align-items: center;
   gap: 40px;
@@ -141,6 +143,7 @@ button {
 
   color: var(--head-title-span-color);
   display: block;
+  padding: 24px 0 24px;
 }
 .header-link:hover,
 .header-link:focus {
