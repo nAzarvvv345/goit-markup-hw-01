@@ -12,174 +12,195 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <header class="header">
-      <nav class="header-navigation">
-        <a href="./index.html" class="header-title link"
-          >Web<span>Studio</span></a
-        >
-        <ul class="header-list list">
-          <li class="header-item">
-            <a href="./index.html" class="header-link link">Studio</a>
-          </li>
-          <li class="header-item">
-            <a href="./portfolio.html" class="header-link link">Portfolio</a>
-          </li>
-          <li class="header-item">
-            <a href="/" class="header-link link">Contacts</a>
-          </li>
-        </ul>
-      </nav>
-      <address class="header-address">
-        <ul class="header-list list">
-          <li class="header-item">
-            <a href="mailto:info@devstudio.com" class="header-tel link"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li class="header-item">
-            <a href="tel:+110001111111" class="header-tel link"
-              >+11 (000) 111-11-11</a
-            >
-          </li>
-        </ul>
-      </address>
+      <div class="header-container container">
+        <nav class="header-navigation">
+          <a href="./index.html" class="header-title link"
+            >Web<span>Studio</span></a
+          >
+          <ul class="header-list list">
+            <li class="header-item">
+              <a href="./index.html" class="header-link link">Studio</a>
+            </li>
+            <li class="header-item">
+              <a href="./portfolio.html" class="header-link link">Portfolio</a>
+            </li>
+            <li class="header-item">
+              <a href="/" class="header-link link">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <address class="header-address">
+          <ul class="header-address-list list">
+            <li class="header-item">
+              <a href="mailto:info@devstudio.com" class="header-tel link"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="header-item">
+              <a href="tel:+110001111111" class="header-tel link"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
     </header>
     <main>
       <h1 hidden class="visually-hidden">SCROLLS</h1>
       <!--section Buttons-->
-
-      <ul class="buttons-list list">
-        <li class="button-item">
-          <button type="button" class="button-btn btn">All</button>
-        </li>
-        <li class="button-item">
-          <button type="button" class="button-btn btn">Web Site</button>
-        </li>
-        <li class="button-item">
-          <button type="button" class="button-btn btn">App</button>
-        </li>
-        <li class="button-item">
-          <button type="button" class="button-btn btn">Design</button>
-        </li>
-        <li class="button-item">
-          <button type="button" class="button-btn btn">Marketing</button>
-        </li>
-      </ul>
+      <section class="buttons">
+        <div class="container">
+          <ul class="buttons-list list">
+            <li class="button-item">
+              <button type="button" class="button-btn btn">All</button>
+            </li>
+            <li class="button-item">
+              <button type="button" class="button-btn btn">Web Site</button>
+            </li>
+            <li class="button-item">
+              <button type="button" class="button-btn btn">App</button>
+            </li>
+            <li class="button-item">
+              <button type="button" class="button-btn btn">Design</button>
+            </li>
+            <li class="button-item">
+              <button type="button" class="button-btn btn">Marketing</button>
+            </li>
+          </ul>
+        </div>
+      </section>
 
       <!--/section Buttons-->
       <!--section img-banking-->
-     
-        <ul class="banking-list list">
-          <li class="banking-item">
-            <img
-              src="./images/img-banking.jpg"
-              alt="images"
-              width="360"
-              height="300"
-            />
-            <h2 class="banking-item-title item-title">
-              Banking App Interface Concept
-            </h2>
-            <p class="banking-item-subtitle item-subtitle">App</p>
-          </li>
-          <li class="banking-item">
-            <img
-              src="./images/img-cashless.jpg"
-              alt="images"
-              width="360"
-              height="300"
-            />
-            <h2 class="banking-item-title item-title">Cashless Payment</h2>
-            <p class="banking-item-subtitle item-subtitle">Marketing</p>
-          </li>
-          <li class="banking-item">
-            <img
-              src="./images/img-meditation.jpg"
-              alt="images"
-              width="360"
-              height="300"
-            />
-            <h2 class="banking-item-title item-title">Meditaion App</h2>
-            <p class="banking-item-subtitle item-subtitle">App</p>
-          </li>
-        </ul>
-      
+      <section class="img-baking">
+        <div class="container img-banking">
+          <ul class="banking-list list">
+            <li class="banking-item">
+              <img
+                src="./images/img-banking.jpg"
+                alt="images"
+                width="360"
+                height="300"
+              />
+              <h2 class="banking-item-title item-title">
+                Banking App Interface Concept
+              </h2>
+              <p class="banking-item-subtitle item-subtitle">App</p>
+            </li>
+            <li class="banking-item">
+              <img
+                src="./images/img-cashless.jpg"
+                alt="images"
+                width="360"
+                height="300"
+              />
+              <h2 class="banking-item-title item-title">Cashless Payment</h2>
+              <p class="banking-item-subtitle item-subtitle">Marketing</p>
+            </li>
+            <li class="banking-item">
+              <img
+                src="./images/img-meditation.jpg"
+                alt="images"
+                width="360"
+                height="300"
+              />
+              <h2 class="banking-item-title item-title">Meditaion App</h2>
+              <p class="banking-item-subtitle item-subtitle">App</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
       <!--/section img-banking-->
       <!--section img-taxi-->
-      
-        <ul class="taxi-list list">
-          <li class="taxi-item">
-            <img
-              src="./images/img-taxi.jpg"
-              alt="images"
-              width="360"
-              height="300"
-            />
-            <h2 class="taxi-item-title item-title">Taxi Service</h2>
-            <p class="taxi-item-subtitle item-subtitle">Marketing</p>
-          </li>
-          <li class="taxi-item">
-            <img
-              src="./images/img-screen.jpg"
-              alt="images"
-              width="360"
-              height="300"
-            />
-            <h2 class="taxi-item-title item-title">Screen Illustrations</h2>
-            <p class="taxi-item-subtitle item-subtitle">Design</p>
-          </li>
-          <li class="taxi-item">
-            <img
-              src="./images/img-online.jpg"
-              alt="images"
-              width="360"
-              height="300"
-            />
-            <h2 class="taxi-item-title item-title">Online Courses</h2>
-            <p class="taxi-item-subtitle item-subtitle">Marketing</p>
-          </li>
-        </ul>
-      
+      <section class="img-taxi">
+        <div class="container">
+          <ul class="taxi-list list">
+            <li class="taxi-item">
+              <img
+                src="./images/img-taxi.jpg"
+                alt="images"
+                width="360"
+                height="300"
+              />
+              <h2 class="taxi-item-title item-title">Taxi Service</h2>
+              <p class="taxi-item-subtitle item-subtitle">Marketing</p>
+            </li>
+            <li class="taxi-item">
+              <img
+                src="./images/img-screen.jpg"
+                alt="images"
+                width="360"
+                height="300"
+              />
+              <h2 class="taxi-item-title item-title">Screen Illustrations</h2>
+              <p class="taxi-item-subtitle item-subtitle">Design</p>
+            </li>
+            <li class="taxi-item">
+              <img
+                src="./images/img-online.jpg"
+                alt="images"
+                width="360"
+                height="300"
+              />
+              <h2 class="taxi-item-title item-title">Online Courses</h2>
+              <p class="taxi-item-subtitle item-subtitle">Marketing</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
       <!--/section img-taxi-->
       <!--section img-instagram-->
+
       <section class="instagram">
-        <ul class="instagram-list list">
-          <li class="instagram-item">
-            <img
-              src="./images/img-instagram.jpg"
-              alt="images"
-              width="360"
-              height="300"
-            />
-            <h2 class="instagram-item-title item-title">
-              Instagram Stories Concept
-            </h2>
-            <p class="instagram-item-subtitle item-subtitle">Design</p>
-          </li>
-          <li class="instagram-item">
-            <img
-              src="./images/img-organic.jpg"
-              alt="images"
-              width="360"
-              height="300"
-            />
-            <h2 class="instagram-item-title item-title">Organic Food</h2>
-            <p class="instagram-item-subtitle item-subtitle">Web Site</p>
-          </li>
-          <li class="instagram-item">
-            <img
-              src="./images/img-fresh.jpg"
-              alt="images"
-              width="360"
-              height="300"
-            />
-            <h2 class="instagram-item-title item-title">Fresh Coffee</h2>
-            <p class="instagram-item-subtitle item-subtitle">Web Site</p>
-          </li>
-        </ul>
-      
+        <div class="container">
+          <ul class="instagram-list list">
+            <li class="instagram-item">
+              <img
+                src="./images/img-instagram.jpg"
+                alt="images"
+                width="360"
+                height="300"
+              />
+              <h2 class="instagram-item-title item-title">
+                Instagram Stories Concept
+              </h2>
+              <p class="instagram-item-subtitle item-subtitle">Design</p>
+            </li>
+            <li class="instagram-item">
+              <img
+                src="./images/img-organic.jpg"
+                alt="images"
+                width="360"
+                height="300"
+              />
+              <h2 class="instagram-item-title item-title">Organic Food</h2>
+              <p class="instagram-item-subtitle item-subtitle">Web Site</p>
+            </li>
+            <li class="instagram-item">
+              <img
+                src="./images/img-fresh.jpg"
+                alt="images"
+                width="360"
+                height="300"
+              />
+              <h2 class="instagram-item-title item-title">Fresh Coffee</h2>
+              <p class="instagram-item-subtitle item-subtitle">Web Site</p>
+            </li>
+          </ul>
+        </div>
+      </section>
       <!--/section img-instagram-->
     </main>
     <footer class="footer">

@@ -2,6 +2,12 @@ body {
   font-family: "Roboto", sans-serif;
   color: #2e2f42;
 }
+.container {
+  width: 1440px;
+  margin: 0, auto;
+  padding: 0 15px 0 15px;
+}
+
 :root {
   --btn-color: #ffffff;
   --head-title-span-color: #2e2f42;
@@ -25,8 +31,25 @@ body {
 
   letter-spacing: 0.02em;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+img {
+  display: block;
+}
+button {
+  cursor: pointer;
+}
 .list {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 .link {
   text-decoration: none;
@@ -58,15 +81,34 @@ body {
   overflow: hidden;
 }
 /* ----------------header----------------- */
+.header-container {
+  display: flex;
+  align-items: center;
+}
 .header {
 }
 .header-navigation {
+  display: flex;
+  align-items: center;
 }
 .header-title span {
   color: var(--head-title-span-color);
 }
 .header-list {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  display: flex;
+  align-items: center;
+  column-gap: 40px;
+  margin-right: 332px;
 }
+
+.header-address-list {
+  display: flex;
+  align-items: center;
+  column-gap: 40px;
+}
+
 .header-title {
   font-family: "Raleway";
   font-weight: 800;
@@ -76,6 +118,10 @@ body {
 
   display: flex;
   align-items: center;
+
+  margin-right: 76px;
+  margin-left: 156px;
+
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
@@ -94,6 +140,7 @@ body {
   letter-spacing: 0.02em;
 
   color: var(--head-title-span-color);
+  display: block;
 }
 .header-link:hover,
 .header-link:focus {
@@ -102,7 +149,9 @@ body {
 .header-item {
 }
 .header-address {
+  display: flex;
   font-style: normal;
+  align-items: center;
 }
 .header-tel:hover,
 .header-tel:focus {
@@ -117,12 +166,18 @@ body {
   letter-spacing: 0.02em;
 
   color: var(--tel-color);
+  display: flex;
 }
 
 /* ----------------effective----------------- */
 
 .effective {
+  min-width: 1440px;
+  height: 600px;
+  left: 0px;
+  top: 72px;
   background-color: #2e2f42;
+  margin-bottom: 120px;
 }
 .effective-title {
   font-weight: 700;
@@ -130,14 +185,31 @@ body {
   line-height: 1.07;
   /* or 107% */
 
-  text-align: center;
   letter-spacing: 0.02em;
+  display: block;
+  padding-top: 188px;
+
+  margin: auto;
+  padding-bottom: 48px;
 
   color: var(--btn-color);
+  max-width: 496px;
+  text-align: center;
 }
 .effective-btn {
   color: var(--btn-color);
   background-color: var(--head-title-color);
+  display: block;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 16px 32px;
+  gap: 10px;
+  text-align: center;
+
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .effective-btn:hover,
 .effective-btn:focus {
@@ -146,19 +218,30 @@ body {
 /* ----------------features----------------- */
 
 .features {
+  margin-right: 156px;
+  margin-bottom: 120px;
 }
 .features-list {
+  display: flex;
+  gap: 24px;
+  margin-left: 156px;
+  margin-right: 156px;
 }
 .features-item {
+  flex-basis: calc(100%-3 * 24px);
 }
 .features-item-title {
   color: var(--head-title-span-color);
+  padding-bottom: 8px;
 }
 .features-item-subtitle {
   color: var(--tel-color);
+  align-items: center;
 }
 /* ----------------img----------------- */
 .img {
+  margin-right: 156px;
+  margin-bottom: 120px;
 }
 .img-title {
   font-weight: 700;
@@ -172,6 +255,11 @@ body {
   color: var(--head-title-span-color);
 }
 .img-list {
+  display: flex;
+  gap: 24px;
+  padding-top: 72px;
+  margin-left: 156px;
+  margin-right: 156px;
 }
 
 .img-item {
@@ -189,12 +277,18 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  padding-bottom: 72px;
+  padding-top: 120px;
 
   /* NAVY BLUE */
 
   color: var(--head-title-span-color);
 }
 .team-list {
+  display: flex;
+  gap: 24px;
+  border-radius: 0px 0px 4px 4px;
+  margin-left: 156px;
 }
 
 .team-item {
@@ -205,11 +299,19 @@ body {
 .team-item-subtitle {
   color: var(--tel-color);
 }
+.team-container {
+  background: #ffffff;
+  margin-bottom: 120px;
+  padding: 32px 16px;
+  text-align: center;
+}
 /* ----------------footer----------------- */
 .footer {
   background-color: var(--head-title-span-color);
+  margin-bottom: 0;
 }
 .footer-link {
+  width: 115px;
   font-family: "Raleway";
   font-style: normal;
   font-weight: 800;
@@ -225,6 +327,10 @@ body {
   /* IRIS */
 
   color: var(--head-title-color);
+  margin-bottom: 16px;
+  padding-top: 100px;
+
+  margin-left: 156px;
 }
 .footer-link span {
   color: var(--footer-span-color);
@@ -241,11 +347,24 @@ body {
   /* CORNFLOWER */
 
   color: var(--footer-discription-color);
+  display: inline-block;
+  padding-bottom: 100px;
+  margin-left: 156px;
+  display: flex;
+
+  width: 264px;
+}
+.footer-container {
 }
 /* ----------------PORTFOLIO!!!!!!------------------------------------------------------------------------------------ */
 /* ----------------buttons----------------- */
 
 .buttons-list {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 72px;
+  margin-top: 96px;
+  margin-left: 427px;
 }
 
 .button-item {
@@ -253,6 +372,28 @@ body {
 .button-btn {
   color: var(--head-title-color);
   background-color: var(--footer-span-color);
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
+}
+.button-btn:nth-child(1) {
+  width: 69px;
+  height: 48px;
+}
+.button-btn:nth-child(2) {
+  width: 116px;
+  height: 48px;
+}
+.button-btn:nth-child(3) {
+  width: 78px;
+  height: 48px;
+}
+.button-btn:nth-child(4) {
+  width: 101px;
+  height: 48px;
+}
+.button-btn:nth-child(5) {
+  width: 126px;
+  height: 48px;
 }
 .button-btn:hover,
 .button-btn:focus {
@@ -260,11 +401,21 @@ body {
   color: var(--btn-color);
 }
 /* ----------------banking----------------- */
+.img-banking {
+  margin-bottom: 48px;
+  margin-left: 156px;
+}
 
 .banking-list {
+  display: flex;
+  gap: 24px;
 }
 
 .banking-item {
+  background: #ffffff;
+  /* CORNFLOWER */
+
+  border: 1px solid #e7e9fc;
 }
 .banking-item-title {
   color: var(--head-title-span-color);
@@ -273,10 +424,20 @@ body {
   color: var(--tel-color);
 }
 /* ----------------taxi----------------- */
+.img-taxi {
+  margin-bottom: 48px;
+  margin-left: 156px;
+}
 
 .taxi-list {
+  display: flex;
+  gap: 24px;
 }
 .taxi-item {
+  background: #ffffff;
+  /* CORNFLOWER */
+
+  border: 1px solid #e7e9fc;
 }
 .taxi-item-title {
   color: var(--head-title-span-color);
@@ -287,12 +448,21 @@ body {
 /* ----------------instagram----------------- */
 
 .instagram {
+  margin-bottom: 120px;
+  margin-left: 156px;
 }
 .instagram-list {
+  display: flex;
+  gap: 24px;
 }
 
 .instagram-item {
+  background: #ffffff;
+  /* CORNFLOWER */
+
+  border: 1px solid #e7e9fc;
 }
+
 .instagram-item-title {
   color: var(--head-title-span-color);
 }
