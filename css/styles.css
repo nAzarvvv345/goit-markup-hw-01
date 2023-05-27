@@ -3,8 +3,8 @@ body {
   color: #2e2f42;
 }
 .container {
-  width: 1440px;
-  margin: 0, auto;
+  width: 1158px;
+  margin: 0 auto;
   padding: 0 15px 0 15px;
 }
 
@@ -84,6 +84,7 @@ button {
 .header-container {
   display: flex;
   align-items: center;
+  border-bottom: 1px solid #e7e9fc;
 }
 .header {
 }
@@ -95,18 +96,17 @@ button {
   color: var(--head-title-span-color);
 }
 .header-list {
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding: 24px 0 24px;
   display: flex;
   align-items: center;
-  column-gap: 40px;
+  gap: 40px;
   margin-right: 332px;
 }
 
 .header-address-list {
   display: flex;
   align-items: center;
-  column-gap: 40px;
+  gap: 40px;
 }
 
 .header-title {
