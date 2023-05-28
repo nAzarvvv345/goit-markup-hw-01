@@ -319,7 +319,7 @@ button {
 /* ----------------footer----------------- */
 .footer {
   background-color: var(--head-title-span-color);
-  margin-bottom: 0;
+  padding: 100px 0;
 }
 .footer-link {
   width: 115px;
@@ -330,7 +330,7 @@ button {
   line-height: 1.17;
   /* identical to box height */
 
-  display: flex;
+  display: inline-block;
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
