@@ -363,12 +363,16 @@ button {
   margin-left: 156px;
   display: flex;
 
-  width: 264px;
+  max-width: 264px;
 }
 .footer-container {
 }
 /* ----------------PORTFOLIO!!!!!!------------------------------------------------------------------------------------ */
 /* ----------------buttons----------------- */
+.portfolio-section {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
 
 .buttons-list {
   display: flex;
