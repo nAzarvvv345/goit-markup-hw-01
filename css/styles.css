@@ -246,7 +246,7 @@ button {
 /* ----------------img----------------- */
 .img {
   margin-right: 156px;
-  margin-bottom: 120px;
+  padding-bottom: 120px;
 }
 .img-title {
   font-weight: 700;
@@ -258,6 +258,7 @@ button {
   text-transform: capitalize;
 
   color: var(--head-title-span-color);
+  margin-bottom: 72px;
 }
 .img-list {
   display: flex;
@@ -268,10 +269,12 @@ button {
 }
 
 .img-item {
+  width: calc((100% - 48px) / 3);
 }
 /* ----------------team----------------- */
 .team {
   background-color: var(--footer-span-color);
+  padding: 120px 0;
 }
 .team-title {
   font-weight: 700;
@@ -282,12 +285,11 @@ button {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  padding-bottom: 72px;
-  padding-top: 120px;
 
   /* NAVY BLUE */
 
   color: var(--head-title-span-color);
+  margin-bottom: 72px;
 }
 .team-list {
   display: flex;
@@ -297,9 +299,12 @@ button {
 }
 
 .team-item {
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 .team-item-title {
   color: var(--head-title-span-color);
+  margin-bottom: 8px;
 }
 .team-item-subtitle {
   color: var(--tel-color);
