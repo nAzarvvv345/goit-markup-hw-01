@@ -302,6 +302,8 @@ button {
 .team-item {
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .team-item-title {
   color: var(--head-title-span-color);
@@ -310,13 +312,42 @@ button {
 .team-item-subtitle {
   color: var(--tel-color);
   text-align: center;
+  margin-bottom: 8px;
 }
 .team-container {
   background: #ffffff;
-  margin-bottom: 120px;
   padding: 32px 16px;
   text-align: center;
 }
+
+.socials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+.list {
+}
+.solcials-item {
+}
+.socials-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+}
+
+.socials-icon {
+  fill: #f4f4fd;
+}
+.socials-link:hover,
+.socials-link:focus {
+  background-color: #404bbf;
+}
+
 /* ----------------footer----------------- */
 .footer {
   background-color: var(--head-title-span-color);
