@@ -406,33 +406,33 @@ button {
   max-width: 264px;
 }
 .footer-container {
-  display: flex;
   align-items: baseline;
+}
+.footer-information {
 }
 .footer-information {
   margin-right: 120px;
 }
-.footer-information {
+.footer-media {
+}
+.media-discription {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #ffffff;
-  margin-bottom: 16px;
-}
-.footer-media {
-}
-.media-discription {
 }
 .footer-list {
   display: flex;
   gap: 16px;
 }
-
-.footer-icon {
+.footer-item {
   width: 40px;
   height: 40px;
   fill: #f4f4fd;
+}
+
+.footer-icon {
 }
 .footer-link {
   width: 100%;
@@ -522,6 +522,8 @@ button {
   background: var(--head-focus-color);
   color: var(--btn-color);
   border: 1px solid transparent;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 /* ----------------banking----------------- */
 .img-portfolio {
@@ -560,7 +562,14 @@ button {
   border-top: none;
 }
 .app-link {
+  display: block;
 }
+.app-link:hover,
+.app-link:focus {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
 /* ----------------taxi----------------- */
 
 /* ----------------instagram----------------- */
