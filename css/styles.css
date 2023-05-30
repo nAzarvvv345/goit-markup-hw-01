@@ -249,6 +249,19 @@ button {
   color: var(--tel-color);
   align-items: center;
 }
+.features-picture {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f4f4fd;
+  height: 112px;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+.features-svg {
+}
+.features-icon {
+}
 /* ----------------img----------------- */
 .img {
   padding-bottom: 120px;
