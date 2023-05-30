@@ -3,9 +3,9 @@ body {
   color: #2e2f42;
 }
 .container {
-  min-width: 1440px;
   margin: 0 auto;
   padding: 0 15px 0 15px;
+  width: 1158px;
 }
 
 :root {
@@ -122,7 +122,6 @@ button {
   align-items: center;
 
   margin-right: 76px;
-  margin-left: 156px;
 
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -143,6 +142,7 @@ button {
 
   color: var(--head-title-span-color);
   display: block;
+  padding: 24px 0;
 }
 .header-link:hover,
 .header-link:focus {
@@ -222,15 +222,11 @@ button {
 /* ----------------features----------------- */
 
 .features {
-  margin-right: 156px;
-  margin-bottom: 120px;
-  padding: 120px 0 120px;
+  padding-bottom: 120px;
 }
 .features-list {
   display: flex;
   gap: 24px;
-  margin-left: 156px;
-  margin-right: 156px;
 }
 .features-item {
   width: calc((100% - 72px) / 4);
@@ -406,10 +402,6 @@ button {
   row-gap: 48px;
 
   flex-wrap: wrap;
-  margin-left: 156px;
-  margin-right: 156px;
-
-  margin-bottom: 48px;
 }
 
 .banking-item {
