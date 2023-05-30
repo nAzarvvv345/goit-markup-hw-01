@@ -5,6 +5,7 @@ body {
 .container {
   margin: 0 auto;
   padding: 0 15px 0 15px;
+
   width: 1158px;
 }
 
@@ -98,7 +99,7 @@ button {
   color: var(--head-title-span-color);
 }
 .header-list {
-  padding: 24px 0 24px;
+  padding: 24px 0;
   display: flex;
   align-items: center;
   gap: 40px;
@@ -142,7 +143,6 @@ button {
 
   color: var(--head-title-span-color);
   display: block;
-  padding: 24px 0;
 }
 .header-link:hover,
 .header-link:focus {
@@ -174,12 +174,20 @@ button {
 /* ----------------effective----------------- */
 
 .effective {
-  min-width: 1440px;
-
   background-color: #2e2f42;
-  margin-bottom: 120px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 0 auto;
   padding: 188px 0;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office.png);
+  max-width: 1440px;
 }
+
 .effective-title {
   font-weight: 700;
   font-size: 56px;
@@ -188,7 +196,6 @@ button {
 
   letter-spacing: 0.02em;
   display: block;
-  padding-top: 188px;
 
   margin: auto;
   padding-bottom: 48px;
@@ -313,7 +320,6 @@ button {
   padding: 100px 0;
 }
 .footer-link {
-  width: 115px;
   font-family: "Raleway";
   font-style: normal;
   font-weight: 800;
@@ -330,9 +336,6 @@ button {
 
   color: var(--head-title-color);
   margin-bottom: 16px;
-  padding-top: 100px;
-
-  margin-left: 156px;
 }
 .footer-link span {
   color: var(--footer-span-color);
@@ -350,8 +353,7 @@ button {
 
   color: var(--footer-discription-color);
   display: inline-block;
-  padding-bottom: 100px;
-  margin-left: 156px;
+
   display: flex;
 
   max-width: 264px;
@@ -374,6 +376,7 @@ button {
 }
 
 .button-item {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 .button-btn {
   color: var(--head-title-color);
@@ -390,6 +393,13 @@ button {
   border: 1px solid transparent;
 }
 /* ----------------banking----------------- */
+.img-portfolio {
+  background: linear-gradient(
+    0deg,
+    rgba(77, 90, 229, 0.1),
+    rgba(77, 90, 229, 0.1)
+  );
+}
 
 .banking-list {
   display: flex;
