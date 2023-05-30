@@ -291,7 +291,6 @@ button {
   display: flex;
   gap: 24px;
   border-radius: 0px 0px 4px 4px;
-  margin-left: 156px;
 }
 
 .team-item {
@@ -304,13 +303,13 @@ button {
 }
 .team-item-subtitle {
   color: var(--tel-color);
+  text-align: center;
 }
 .team-container {
   background: #ffffff;
   margin-bottom: 120px;
   padding: 32px 16px;
   text-align: center;
-  width: 264px;
 }
 /* ----------------footer----------------- */
 .footer {
